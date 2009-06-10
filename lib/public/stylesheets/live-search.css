@@ -1,0 +1,73 @@
+div.live-search-results {
+    overflow: auto;
+
+    padding: 5px 10px;
+
+    font: 10px / 1.2 Verdana, sans-serif;
+
+    border: 1px solid #A9A9A9;
+    border-width: 0 1px 1px 1px;
+
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #212427;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+div.live-search-results h2 {
+    font: 14px / 1.2 Trebuchet MS, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+div.live-search-results h3 {
+    font: 12px / 1.2 Trebuchet MS, sans-serif;
+    padding: 0;
+    margin: 5px;
+}
+
+div.live-search-results ol {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+div.live-search-results ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+div.live-search-results a {
+    color: #fff;
+    
+}
+
+.suggestionsBox {
+    position: relative;
+    left: 30px;
+    margin: 10px 0px 0px 0px;
+    width: 200px;
+    background-color: #212427;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 2px solid #000;
+    color: #fff;
+}
+
+.suggestionList {
+    margin: 0px;
+    padding: 0px;
+}
+
+.suggestionList li {
+    margin: 0px 0px 3px 0px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.suggestionList li:hover {
+    background-color: #659CD8;
+}

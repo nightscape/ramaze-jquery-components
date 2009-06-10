@@ -1,0 +1,7 @@
+%form#livesearch_form
+  %input#live_search{ :name => "query", :size => "30", :type => "text" }
+  %script{ :type => 'text/javascript'}
+    = "var ajax_search_url='#{query_address}';"
+
+  :javascript
+    $('#live_search').liveSearch({ajaxURL: ajax_search_url});
