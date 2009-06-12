@@ -6,5 +6,8 @@ module JQuery
     engine :Haml
     script 'jquery.js','jquery.liveSearch.js','css.js'
     stylesheet 'live-search.css'
+    def show
+      
+    end
   end
 end

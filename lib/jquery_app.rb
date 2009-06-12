@@ -1,3 +1,1 @@
-require 'controller/live_search'
-require  'helper/live_search'
-Ramaze::App[:jquery].options.roots = [__DIR__]
+Innate::HelpersHelper.options.paths << __DIR__
